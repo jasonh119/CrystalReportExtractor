@@ -1,0 +1,15 @@
+# Application Configuration
+app:
+  name: CrystalReportExtractor
+  version: 0.0.1
+
+# Data Path Configuration
+paths:
+  input_dir: "D:/01_Data/OneDrive/Development/Python/CrystalReportExtractor/input/"
+  output_dir: "D:/01_Data/OneDrive/Development/Python/CrystalReportExtractor/output/"
+
+# Logging Configuration 
+logging:
+  level: DEBUG
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: "../logs/app.log"
